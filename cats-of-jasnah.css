@@ -62,11 +62,19 @@ svg .face {
   display: none;
 }
 
+.football {
+  display: inline;
+}
+
+.basketballs .football {
+  display: none;
+}
+
 .basketballs .smile,
 .basketballs .frown {
   display: inline;
   stroke: none;
-  fill: orange;
+  fill: black;
 }
 
 .mouth {
@@ -78,7 +86,7 @@ svg .face {
 }
 
 .blue .face {
-  fill: #8888ff;
+  fill: #0000ff;
 }
 
 .yellow .face {
