@@ -1,6 +1,6 @@
 const COLOR_ATTS = ['red', 'blue', 'yellow']
 const MOTION_ATTS = ['bouncing', 'spinning']
-const ANIMAL_ATTS = ['ducks']
+const ANIMAL_ATTS = ['basketball']
 const ALL_ATTS = COLOR_ATTS.concat(MOTION_ATTS).concat(ANIMAL_ATTS)
 let ATTS
 let cur_atts = {}
@@ -101,11 +101,11 @@ var make_cats = function() {
     }
     text += prefix_words.join(', ') + ' '
     // ducks is just 'duck' when used as an adjective
-    text = text.replace('ducks', 'duck')
+    text = text.replace('basketballs', 'basketball')
   }
   postfix_keys = keys.slice(prefix_pos)
   if (postfix_keys.length) {
-    text += 'cats are '
+    text += 'balls are '
 
     let conjunctions = []
     for (let att in postfix_keys) {
@@ -116,7 +116,7 @@ var make_cats = function() {
     console.log(conjunctions)
     text += conjunctions.join(' and are ')
   } else {
-    text += 'cats are here'
+    text += 'balls are here'
   }
   text += '?'
 
@@ -155,7 +155,7 @@ var make_cats = function() {
   }
 
   if (get_answer().length > 9) {
-    console.log('Too many cats, generate a new puzzle.')
+    console.log('Too many balls, generate a new puzzle.')
     make_cats()
   }
 }
