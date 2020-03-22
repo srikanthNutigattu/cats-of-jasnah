@@ -1,6 +1,6 @@
 # count-the-balls
 
-Big thanks to original author. This extends the [Cats of Jasnah](https://github.com/countable/cats-of-jasnah), a web based game for learning categories and logic
+A web based game for learning categories and logic
 
 This game updates colors, and uses balls instead of cats, as it was made for 3 year old to develop logical language skills. It progresses from counting up to increasingly difficult word problems using boolean logic. This seems like an effective path for him to learn at his current level of development and I couldn't find something like this elsewhere.
 
@@ -10,6 +10,7 @@ Enjoy!
 
 
 ### References for original game
+Big thanks to original author. This extends the [Cats of Jasnah](https://github.com/countable/cats-of-jasnah), 
 
 Thanks for all the feedback, folks from [Hacker News!](https://news.ycombinator.com/item?id=21880446#21886290)
 
