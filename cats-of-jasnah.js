@@ -6,6 +6,7 @@ let ATTS
 let cur_atts = {}
 let cur_level = 0
 let clue
+let username = 'shourya';
 
 const pick_rand = function(seq) {
   return seq[Math.floor(Math.random() * seq.length)]
@@ -88,7 +89,7 @@ var make_cats = function() {
   set_avail_atts()
   permute_atts()
   is_reversed = Math.random() < 0.5
-  let text = 'Shourya, how many '
+  let text = username + ', how many '
   const keys = Object.keys(cur_atts)
   const prefix_pos = get_level_num_adjectives(cur_level, keys)
   const prefix_keys = keys.slice(0, prefix_pos)
@@ -165,6 +166,10 @@ const sound = function(s) {
   snd.play()
 }
 
+$(function () {
+    username = prompt("What is your name?", "Shourya");
+});
+
 $('body').keyup(function(e) {
   if (!/\d/.test(e.key)) return
   submit(parseInt(e.key))
@@ -187,7 +192,7 @@ const submit = function(value) {
   answer.addClass('circle')
   console.log('answer:', answer.length)
   if (value === answer.length) {
-    speak("Well done Shourya! - It's, " + answer.length, {
+    speak("Well done " + username+ "! - It's, " + answer.length, {
       onend: function() {
         make_cats()
       }
