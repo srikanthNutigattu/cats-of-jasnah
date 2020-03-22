@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af1a1bb-ca11-4c22-ad8c-5da43912297b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cats-of-jasnah.css" afterPath="$PROJECT_DIR$/cats-of-jasnah.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cats-of-jasnah.js" afterPath="$PROJECT_DIR$/cats-of-jasnah.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +19,8 @@
       <file leaf-file-name="cats-of-jasnah.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cats-of-jasnah.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="136" column="12" lean-forward="false" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="12" />
+            <state relative-caret-position="180">
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -56,11 +59,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#polyline#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="292">
+              <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,8 +69,8 @@
       <file leaf-file-name="cats-of-jasnah.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cats-of-jasnah.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="7" />
+            <state relative-caret-position="186">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,15 +91,26 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>boun</find>
-      <find>whiskers</find>
       <find>ellipse</find>
       <find>cats</find>
       <find>backgr</find>
       <find>how many</find>
-      <find>duck</find>
       <find>yellow</find>
+      <find>whiskers</find>
       <find>ALL_ATTS</find>
+      <find>basketball</find>
       <find>yello</find>
+      <find>COLOR_ATTS</find>
+      <find>M 75 90</find>
+      <find>nose</find>
+      <find>frown``</find>
+      <find>ducks</find>
+      <find>background</find>
+      <find>duck</find>
+      <find>hidden</find>
+      <find>bouncing</find>
+      <find>frown</find>
+      <find>ducke</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,6 +125,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cats-of-jasnah.js" />
+        <option value="$PROJECT_DIR$/cats-of-jasnah.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -275,12 +288,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584843823729</updated>
-      <workItem from="1584843825287" duration="5238000" />
+      <workItem from="1584843825287" duration="8843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5238000" />
+    <option name="totallyTimeSpent" value="8843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -323,11 +336,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cats.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -347,6 +355,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cats.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/football.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -357,27 +370,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cats-of-jasnah.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="136" column="12" lean-forward="false" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="12" />
+        <state relative-caret-position="180">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cats-of-jasnah.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="83" column="7" lean-forward="false" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="7" />
+        <state relative-caret-position="186">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#polyline#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="292">
+          <caret line="66" column="10" lean-forward="true" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>

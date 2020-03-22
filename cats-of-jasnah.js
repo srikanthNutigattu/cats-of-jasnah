@@ -1,6 +1,6 @@
 const COLOR_ATTS = ['red', 'blue', 'yellow']
 const MOTION_ATTS = ['bouncing', 'spinning']
-const ANIMAL_ATTS = ['basketball']
+const ANIMAL_ATTS = ['basketballs']
 const ALL_ATTS = COLOR_ATTS.concat(MOTION_ATTS).concat(ANIMAL_ATTS)
 let ATTS
 let cur_atts = {}

@@ -62,8 +62,8 @@ svg .face {
   display: none;
 }
 
-.ducks .smile,
-.ducks .frown {
+.basketballs .smile,
+.basketballs .frown {
   display: inline;
   stroke: none;
   fill: orange;
