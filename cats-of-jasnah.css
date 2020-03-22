@@ -74,19 +74,19 @@ svg .face {
 .basketballs .frown {
   display: inline;
   stroke: none;
-  fill: black;
+  fill: #666;
 }
 
 .mouth {
   stroke: black;
 }
 
-.red .face {
-  fill: red;
+.orange .face {
+  fill: #ed900b;
 }
 
 .blue .face {
-  fill: #0000ff;
+  fill: #add8e6;
 }
 
 .yellow .face {

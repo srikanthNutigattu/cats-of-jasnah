@@ -1,4 +1,4 @@
-const COLOR_ATTS = ['red', 'blue', 'yellow']
+const COLOR_ATTS = ['orange', 'blue', 'yellow']
 const MOTION_ATTS = ['bouncing', 'spinning']
 const ANIMAL_ATTS = ['basketballs']
 const ALL_ATTS = COLOR_ATTS.concat(MOTION_ATTS).concat(ANIMAL_ATTS)
@@ -81,14 +81,14 @@ const chance_for_level = function(level) {
 const speak = function(text, opts) {
   opts = opts || {}
   $('p').text(text)
-  responsiveVoice.speak(text, 'US English Female', opts)
+  responsiveVoice.speak(text, 'US English Male', opts)
 }
 
 var make_cats = function() {
   set_avail_atts()
   permute_atts()
   is_reversed = Math.random() < 0.5
-  let text = 'how many '
+  let text = 'Shourya, how many '
   const keys = Object.keys(cur_atts)
   const prefix_pos = get_level_num_adjectives(cur_level, keys)
   const prefix_keys = keys.slice(0, prefix_pos)
@@ -122,7 +122,7 @@ var make_cats = function() {
 
   // substitution.
   if (Math.random() < 0.5) text = text.replace(/not.blue/, 'white')
-  if (Math.random() < 0.5) text = text.replace(/not.red/, 'white')
+  if (Math.random() < 0.5) text = text.replace(/not.orange/, 'white')
   if (Math.random() < 0.5) text = text.replace(/not.yellow/, 'white')
 
   clue = text
@@ -187,7 +187,7 @@ const submit = function(value) {
   answer.addClass('circle')
   console.log('answer:', answer.length)
   if (value === answer.length) {
-    speak("That's right, " + answer.length, {
+    speak("Well done Shourya! - It's, " + answer.length, {
       onend: function() {
         make_cats()
       }
