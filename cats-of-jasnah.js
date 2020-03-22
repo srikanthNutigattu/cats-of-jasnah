@@ -81,7 +81,7 @@ const chance_for_level = function(level) {
 const speak = function(text, opts) {
   opts = opts || {}
   $('p').text(text)
-  responsiveVoice.speak(text, 'US English Male', opts)
+  responsiveVoice.speak(text, 'US English Female', opts)
 }
 
 var make_cats = function() {
